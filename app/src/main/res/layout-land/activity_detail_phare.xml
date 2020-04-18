@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPhare">
+
+    <TextView
+        android:id="@+id/nomPhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomPhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/regionPhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regionPhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/nomPhare"
+        app:layout_constraintTop_toBottomOf="@+id/nomPhare"
+        app:layout_constraintVertical_bias="0.089999974" />
+
+    <TextView
+        android:id="@+id/constructionPhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anneeConstruction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/nomPhare"
+        app:layout_constraintTop_toBottomOf="@+id/regionPhare"
+        app:layout_constraintVertical_bias="0.089999974" />
+
+    <TextView
+        android:id="@+id/positionPhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/positionPhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/nomPhare"
+        app:layout_constraintTop_toBottomOf="@+id/constructionPhare"
+        app:layout_constraintVertical_bias="0.089999974" />
+
+    <TextView
+        android:id="@+id/lattitudePhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/lattitudePhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/positionPhare"
+        app:layout_constraintTop_toBottomOf="@+id/positionPhare"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <TextView
+        android:id="@+id/longitudePhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:text="@string/longitudePhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/positionPhare"
+        app:layout_constraintTop_toBottomOf="@+id/lattitudePhare"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <ImageView
+        android:id="@+id/imagePhare"
+        android:layout_width="261dp"
+        android:layout_height="226dp"
+        android:contentDescription="@string/legendePhare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fond" />
+
+    <TextView
+        android:id="@+id/clignotementPhare"
+        style="@style/detailStyleLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clignotement"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/nomPhare"
+        app:layout_constraintTop_toBottomOf="@+id/longitudePhare" />
+</androidx.constraintlayout.widget.ConstraintLayout>

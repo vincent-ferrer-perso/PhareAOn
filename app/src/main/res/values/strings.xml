@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Phare A On</string>
+    <string name="nav_header_title">Phare A On</string>
+    <string name="nav_header_subtitle">vincent.ferrer@etu.univ-amu.fr</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_liste">Liste</string>
+    <string name="menu_about">A Propos</string>
+    <string name="menu_map">Carte</string>
+
+    <string name="legendePhare">"Image du Phare : "</string>
+    <string name="nomPhare">"Nom du Phare : "</string>
+    <string name="regionPhare">"Region : "</string>
+    <string name="anneeConstruction">"Année de construction : "</string>
+    <string name="positionPhare">"Position géographique : "</string>
+    <string name="lattitudePhare">"Latitude : "</string>
+    <string name="longitudePhare">"Longitude : "</string>
+    <string name="clignotement">"Clignotement : "</string>
+
+    <string name="title_activity_maps">Carte</string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='Phare A On'
+include ':app'

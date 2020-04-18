@@ -1,0 +1,126 @@
+{
+  "phares": {
+    "liste": [
+      {
+        "id": "1" ,
+        "name": "Phare du Risban" ,
+        "filename": "phare_du_risban",
+        "region": "Nord",
+        "construction": 1842,
+        "period": 5000,
+        "lat":51.048874,
+        "lng":2.364388
+      },
+      {
+        "id": "2" ,
+        "name": "Phare de Calais" ,
+        "filename": "phare_de_calais",
+        "region": "Pas-de-Calais",
+        "construction": 1848,
+        "period": 2400,
+        "lat":50.961330,
+        "lng":1.853688
+      },
+      {
+        "id": "3" ,
+        "name": "Phare d'Ault" ,
+        "filename": "phare_d_ault",
+        "region": "Somme",
+        "construction": 1951,
+        "period": 4000,
+        "lat":50.104944,
+        "lng":1.453735
+      },
+      {
+        "id": "4" ,
+        "name": "Phare d'Ailly" ,
+        "filename": "phare_d_ailly",
+        "region": "Seine-Maritime",
+        "construction": 1958,
+        "period": 6666,
+        "lat":49.916047,
+        "lng":0.958436
+      },
+      {
+        "id": "5" ,
+        "name": "Phare de la Hève" ,
+        "filename": "phare_de_la_heve",
+        "region": "Normandie",
+        "construction": 1951,
+        "period": 5000,
+        "lat":49.512516,
+        "lng":0.069221
+      },
+      {
+        "id": "6" ,
+        "name": "Phare de Ouistreham" ,
+        "filename": "phare_de_ouistreham",
+        "region": "Calvados",
+        "construction": 1905,
+        "period": 4000,
+        "lat":49.279957,
+        "lng":-0.247449
+      },
+      {
+        "id": "7" ,
+        "name": "Phare du Cap Lévi" ,
+        "filename": "phare_du_cap_levi",
+        "region": "Manche",
+        "construction": 1947,
+        "period": 5000,
+        "lat":49.695879,
+        "lng":-1.473152
+      },
+      {
+        "id": "8" ,
+        "name": "L’Espiguette" ,
+        "filename": "phare_espiguette",
+        "region": "Languedoc-Roussillon",
+        "construction": 1837,
+        "period": 5000,
+        "lat":43.487590,
+        "lng":4.142629
+      },
+      {
+        "id": "9" ,
+        "name": "Le Planier" ,
+        "filename": "phare_planier",
+        "region": "PACA",
+        "construction": 1959,
+        "period": 5000,
+        "lat":43.198708,
+        "lng":5.229930
+      },
+      {
+        "id": "10",
+        "name": "La Gacholle",
+        "filename": "phare_gacholle",
+        "region": "Camargue",
+        "construction": 1884,
+        "period": 4000,
+        "lat":  43.45485,
+        "lng": 4.570313
+      },
+      {
+        "id": "11",
+        "name": "Le Stiff",
+        "filename": "phare_stiff",
+        "region": "Bretagne",
+        "construction": 1699,
+        "period": 10000,
+        "lat":  48.47528,
+        "lng": -5.05750
+      },
+      {
+        "id": "12",
+        "name": "Phare de Biarritz",
+        "filename": "phare_biarritz",
+        "region": "Aquitaine",
+        "construction": 1829,
+        "period": 5000,
+        "lat": 43.494062,
+        "lng": -1.553852
+      }
+    ]
+  }
+}
